@@ -1,0 +1,21 @@
+.attribution { 
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+
+  width: max-content;
+
+  color: var(--text-neutral-dark);
+  
+  z-index: 10;
+}
+
+.attribution p {
+  font-weight: 400;
+  margin: 0;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+}

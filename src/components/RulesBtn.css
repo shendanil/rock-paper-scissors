@@ -1,0 +1,16 @@
+.rules {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+
+    letter-spacing: .1rem;
+    
+    color: white;
+
+    border: 2px solid var(--text-neutral-dark);
+    border-radius: .5rem;
+    
+    padding: .5rem 1rem;
+
+    cursor: pointer;
+}

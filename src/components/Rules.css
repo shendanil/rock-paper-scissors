@@ -1,0 +1,42 @@
+.rules-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 2rem;
+
+    width: fit-content;
+    height: fit-content;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+
+    border-radius: 1rem;
+
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.rules-bg .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1rem;
+    color: var(--text-neutral-dark);
+}
+
+.rules-bg .header svg {
+    cursor: pointer;
+}
+
+.clear-score {
+    color: var(--text-neutral-dark);
+}

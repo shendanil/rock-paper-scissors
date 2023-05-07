@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  font-family: 'Barlow Semi Condensed', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --text-neutral-dark: hsl(229, 25%, 31%);
+  --text-neutral-score: hsl(229, 64%, 46%);
+  --header-neutral-outline: hsl(217, 16%, 45%);
+
+  --text-semibold: 600;
+  --text-bold: 700;
+}
+
+body {
+  background: radial-gradient(at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  
+  margin: 0;
+
+  overflow: hidden;
+}
+
+h1, h2, h3, p {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h2, h3, p {
+  font-weight: var(--text-semibold);
+  margin: 0;
+}
+
+.rock svg,
+.paper svg,
+.scissors svg {
+  pointer-events: none;
+}
+
+.page-1 {
+  z-index: 1;
+}
+
+
+.rules-bg {
+  z-index: 2;
+}
